@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url(../countdown_timer/pexels-eberhardgross-1421903.jpg);
+    background-size: cover;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.title{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 8px;
+}
+
+.col{
+    margin-top: 10px;
+    width: 1000px;
+    display: flex;
+    margin: 10px auto;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.col div{
+    width: 250px;
+    text-align: center;
+}
+
+input{
+    height: 50px;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    
+}
