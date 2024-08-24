@@ -1,0 +1,41 @@
+body{
+    background-image: linear-gradient(to right, #108dc7, #ef8e38);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 170px;
+}
+
+div.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#gameContainer{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+#restartBtn{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-weight: 10px;
+    background-color: gray;
+    backface-visibility: hidden;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-color: transparent;
+}
